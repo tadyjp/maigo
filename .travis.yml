@@ -4,3 +4,5 @@ rvm:
   - 2.0.0
 script:
   - bundle exec rspec spec
+env:
+  - CODECLIMATE_REPO_TOKEN=91ce60a0c2f846139af6228139bcd585d3163db3e57357b343586f18fda68185
