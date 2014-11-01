@@ -1,10 +1,9 @@
 # Maigo
 
-TODO: Write a gem description
+Find Missing Outlets in Xcode Storyboard.
 
 ## Installation
 
-Add this line to your application's Gemfile:
 
 ```ruby
 gem 'maigo'
@@ -16,11 +15,22 @@ And then execute:
 
 Or install it yourself as:
 
+    $ gem install nokogiri
     $ gem install maigo
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `maigo` command:
+
+    $ cd path/to/xcode-project-dir
+    $ maigo
+
+or
+
+    $ maigo path/to/xcode-project-dir
+
+and then, you will missing outlets information.
+
 
 ## Contributing
 
