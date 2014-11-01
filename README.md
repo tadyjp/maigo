@@ -36,7 +36,7 @@ or
 
     $ maigo path/to/xcode-project-dir
 
-and then, you will missing outlets information.
+and then, you will get missing outlets information.
 
 
 ## Contributing
